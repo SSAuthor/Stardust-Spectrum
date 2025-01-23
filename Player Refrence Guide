@@ -1,0 +1,209 @@
+The Stardust Spectrum Player Refrence Guide Book
+
+Table of Contents
+    1. Introduction to The Stardust Spectrum
+        ◦ How to play
+        ◦ Core Themes
+    2. Game Mechanics
+        ◦ Character Creation
+        ◦ Core and Substats
+        ◦ Dice System
+        ◦ Combat Mechanics
+    3. Spectrum Mechanics
+        ◦ Spectrum Zones and Effects
+        ◦ Tactical Implications
+    4. Character Advancement
+        ◦ Leveling Systems
+        ◦ Prism Usage
+    5. Weapons and Equipment
+        ◦ Weapon Stats and Customization
+        ◦ Durability and Augmentations
+    6. Player Roles
+        ◦ Narrator Responsibilities
+        ◦ Player Guidelines
+    7. Environments and Exploration
+        ◦ Dynamic Battlefield Mechanics
+        ◦ Interaction Rules
+    8. Appendices
+        ◦ Glossary of Terms
+        ◦ Reference Charts
+
+1. Introduction to The Stardust Spectrum
+How to play
+The Stardust Spectrum is a D20-based tabletop RPG system that combines resource management, tactical combat, and immersive storytelling. Players need only a single 20-sided die to engage in all core mechanics, including attacks, skill checks, and saving throws. The game utilizes hexagonal combat maps to emphasize positioning and strategy, where Spectrum zones dynamically affect gameplay. While offering familiar RPG features like leveling, equipment upgrades, and dice rolls, the SSRPG stands out with its vibrant stat pools, environmental interactions, and innovative Clash system for high-stakes encounters. This blend ensures that every session feels both approachable and refreshingly unique.
+Core Themes
+    • Adaptability and Strategy: Emphasizing resource management and tactical decision-making.
+    • Environmental Interaction: Leveraging Spectrum zones for survival and dominance.
+    • Creativity in Gameplay: Encouraging players to build and strategize freely.
+
+2. Game Mechanics
+Character Creation
+    1. Choose a Character Type: Determines the doubled core stat (Vigor, Stamina, or Mana).
+        ◦ Power Type: Boosts melee damage and fortitude.
+        ◦ Speed Type: Enhances mobility and ranged weapon range.
+        ◦ Magic Type: Amplifies spellcasting and spell effects/effectiveness.
+    2. Allocate Core Stats (Vibrant Stats): Vigor, Stamina, Mana, and Hope. These stats are considered pool and will move up and down to their base number.
+        ◦ Starting Points: Allocate 3 points among stats. All stats start at 1.
+    3. Select Starting Skills and Abilities: Equip Level 1 options tailored to the character’s type.
+    4. Choose Equipment: Start with a Level 1 weapon and armor. Customize as you progress.
+Core and Substats
+    • Core Stats (Vibrant):
+        ◦ Vigor: Governs melee actions and damage.
+        ◦ Stamina: Influences movement, speed and ranged actions.
+        ◦ Mana: Governs spellcasting and intelligence checks.
+        ◦ Hope: It regenerates whenever a player rolls a natural 1 or 20 and fully refreshes at the end of every scene. Players can expend points in this pool to add to their roll to hit rolls.
+    • Substats (Vivid): Include Skills/Spells, Abilities, Proficiencies, Augmentations, and Armor. Each is upgraded independently.
+Dice System
+    1. Roll to Hit: Use 1d20 for attacks, adding core stat bonuses based on the type of roll.
+    2. Roll States: Determine success levels:
+        ◦ Fail (1–5), Mixed (6-15), Success (16–20), Critical Successes (21+).
+    3. Saving Throws: Use Vigor, Stamina, or Mana for resistance rolls.
+Combat Mechanics
+    • Dynamic Pools: Spend Vigor, Stamina or Mana during turns. Regenerate fully at turn start.
+    • Clash System: Engage in high-stakes duels with resource-dependent outcomes.
+    • Spectrum Zones: Leverage environmental boosts for tactical advantages.
+
+3. Spectrum Mechanics
+Spectrum Zones and Effects
+General: Spectrums will have a 1-5 level that determines the AoE and amount of points that can be drained from it before it goes dormant for the rest of the scene. 
+    • Yellow Spectrum: Regenerates Hope points.
+    • White Spectrum: Boosts Health and healing effects.
+    • Red Spectrum: Increases Vigor for melee actions.
+    • Blue Spectrum: Enhances Stamina, mobility, and ranged attacks.
+    • Purple Spectrum: Amplifies Mana, AoE size, and spell potency.
+    • Green Spectrum: Provides Prisms for leveling.
+    • Black Spectrum: Drains all core stats, acting as a hazard.
+    • Dormant Spectrum Zones: Once a spectrum zone is drained, the dormant zone produces a ‘grey’ AoE that absorbs the corresponding stats. Once it reaches its max in what it can absorb, the dormant zone becomes active again but starting at 1 and each turn increasing its range and effectiveness by 1 until it reaches the normal max level for the zone.
+Tactical Implications
+    • Resource Denial: Absorb Spectrums to prevent enemy use.
+    • Overcapping: Temporarily exceed stat caps with Spectrum boosts.
+    • Max Cap: Stats cannot exceed 10.
+    • Team Strategy: Coordinate Spectrum usage for collective advantage.
+
+4. Character Advancement
+Leveling Systems
+    • Core Stats: Upgrade with Vibrant Prisms including character level.
+    • Substats: Enhance Skills/Spells, Abilities, and more using Vivid Prisms.
+    • Health Scaling: Exponential growth from 20 (Level 1) to 240 (Level 5).
+Prism Usage
+    • Vibrant Prisms: Core Stats, Weapon level and Character Level.
+    • Vivid Prisms: Substats and Weapon Stats.
+
+5. Weapons and Equipment
+Weapon Stats and Customization
+    • Core Stats: Vigor, Stamina or Mana to determine weapon functionality.
+    • Leveling Weapons: Use Vibrant Prisms for overall level and Vivid Prisms for stats. Parent level determines its stats cap. Must level the weapon to level 2 before stats can be leveled up.
+    • Hybrid Weapons: Switch between melee and magical modes.
+Durability and Augmentations
+    • Optional Durability System: Manage wear and repair.
+    • Augmentations: Add status effects.
+
+6. Player Roles
+Narrator Responsibilities
+    • Guide the story and manage Spectrum zones.
+    • Ensure balanced challenges and engaging gameplay.
+    • Reward players appropriately with prisms, including everything outside of combat.
+Player Guidelines
+    • Strategize resource usage and coordinate with allies.
+    • Embrace role-playing and creativity.
+
+7. Environments and Exploration
+Dynamic Battlefield Mechanics
+    • Spectrums shift during battles, encouraging adaptive strategies.
+    • Environmental hazards and bonuses add layers to gameplay.
+Interaction Rules
+    • Use skills and stats to navigate obstacles and unlock opportunities.
+
+8. Appendices
+Glossary of Terms
+    • Vibrant Stats: Core resource pools.
+    • Vivid Stats: Sub resource pools.
+    • Spectrum: Environmental Vibrant zones.
+    • Prisms: Resources for leveling and upgrades.
+        ◦ Vapid: Used for currency within the world.
+        ◦ Vivid: Used to upgrade sub stats and weapon sub stats.
+        ◦ Vibrant: Used to upgrade character level, core stats and weapon level.
+Quick Reference Tables
+Color Key
+Color	Represents	Context
+Red	Vigor and all melee-based actions	Used for strength, physical combat, and fortitude.
+Blue	Stamina and all stamina-based actions	Represents endurance, movement, and energy-related activities.
+Purple	Mana and all magic-based actions	Associated with spells, magical energy, and casting abilities.
+Yellow	Hope and critical roll states	Highlights moments of luck, critical successes, or pivotal actions.
+Green	Prisms (style indicates vivid or vibrant types)	Refers to prism type needed to level up based on if its Vibrant or Vivid.
+Black/White	Health and weapon durability	Tracks damage taken, remaining health, and item longevity.
+
+
+1. Core Stat Pools and Actions
+Stat	Used For	Depletes When	Regenerates
+Vigor	Melee attacks, fortitude checks	Melee actions or Power-based rolls	At the start of the player’s turn
+Stamina	Movement, dodging, item use, abilities	Non-damage actions like movement	At the start of the player’s turn
+Mana	Spells, perception, intelligence checks	Casting spells or magical actions	At the start of the player’s turn
+Hope	Boosting rolls	Used to modify dice rolls	Between scenes or on a nat. 1/20 roll
+
+2. Roll States and Outcomes
+Roll Range	Roll State	Effect
+1	Critical Failure	x2 damage multiplier against the roller (cannot modify this roll)
+2–5	Fail	Action fails
+6–10	Mixed	Success depends on difficulty/context
+11–15	Mixed	Action usually succeeds on normal things
+16–20	Success	Action succeeds
+21–25	Critical Success	x2 damage multiplier
+26–30	Double Critical Success	x3 damage multiplier
+31–35	Triple Critical Success	x4 damage multiplier
+36–40 (MAX)	Max Critical Success	x5 damage multiplier
+
+3. Spectrum Zones
+Color	Associated Stat	Effect
+White	Health	Temporarily boosts Health Pool (Level × 10).
+Red	Vigor	Temporarily increases Vigor stat (melee focus).
+Blue	Stamina	Temporarily increases Stamina stat (movement and range focus).
+Purple	Mana	Temporarily increases Mana stat (AoE and spell enhancements).
+Yellow	Hope	Temporarily increases Hope stat for better roll modifications.
+Green	Prisms	Provides Prism rewards for leveling stats and gear.
+Black	Drains stats	Reduces resource pools by 1–5 per turn; affects all stats except Health.
+
+4. Vivid Stats (Substats)
+Substat	Category Level Determines	Individual Slot Use
+Skills/Spells	Number of spell slots and their max level	Used for active abilities or magic spells
+Abilities	Number of ability slots and their max level	Grants passive or active gameplay bonuses
+Proficiencies	Number of proficiency slots and their max level	Non-combat skills like crafting or stealth
+Augmentations	Number of augmentation slots and their max level	Provides stat boosts or unique effects
+Armor	Total armor pool and armor effects.	Slots provide additional durability
+
+5. Combat Action Economy
+Action	Stat Used	Cost	Effect
+Melee Attack	 Vigor	1 Vigor	Damage based on Vigor + Weapon Power
+Magic Attack	Mana	1 Mana	Damage based on Mana spent + Spell Level
+Ranged Attack	Vigor	1 Vigor	Damage based on Vigor + Weapon Power (range determined by Weapon Speed+ character Stamina)
+Movement	 Stamina	1 Stamina	Move up to current Speed stat in hexes
+Dodge	Stamina	1 Stamina	Add current Stamina stat to roll to avoid an attack
+Perception	Mana	1 Mana	Identify hidden details, traps, or weaknesses
+Item Use	 Stamina	1 Stamina	Use consumables like healing potions or tools
+
+6. Clash Mechanics
+Phase	Description
+Initiation	Two participants engage in simultaneous attacks.
+Roll to Hit	Both roll 1d20; successful rolls add damage to the Clash Pool.
+Clash Pool Damage	Normal attack damage is added to the pool (not applied to players).
+Direct Damage	Both participants take damage equal to their opponent's Vigor or Mana.
+Clash Multiplier	Multiplier increases with critical roll states (x1 to x5 max).
+Clash Resolution	The loser takes the total Clash Pool damage, multiplied.
+
+7. Leveling Costs
+Category	Cost (Per Level)	Maximum Level
+Core Stats	Current level in Vibrant Prisms	5
+Substat Levels	Current level in Vivid Prisms	Matches parent level
+Character Level	Current level in Vibrant Prisms	5
+Weapon Level	Current level in Vibrant Prisms	5
+
+8. Health and Durability
+Level	Health Pool	Weapon Durability
+1	20	20
+2	40	40
+3	80	80
+4	160	160
+5	240	240
+
+7. Licensing and Legal
+The Stardust Spectrum™ , This work is copyright protected. For personal use only. Contact for commercial licensing.

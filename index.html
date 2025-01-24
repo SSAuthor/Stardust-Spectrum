@@ -82,20 +82,46 @@
     color: #fff;
     font-size: 0.9rem;
   }
-  .dice-roller {
+  .dice-container {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  .dice-result {
-    font-size: 1.5rem;
-    margin-top: 10px;
+  .dice {
+    width: 100px;
+    height: 100px;
+    background: #ffd700;
+    color: black;
     font-family: 'Orbitron', sans-serif;
-    color: #ffd700;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    animation: none;
+  }
+  @keyframes roll {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .rolling {
+    animation: roll 1s ease-in-out;
   }
 </style>
 <script>
   function rollD20() {
-    const result = Math.floor(Math.random() * 20) + 1;
-    document.getElementById('dice-result').textContent = `You rolled: ${result}`;
+    const dice = document.getElementById('dice');
+    dice.classList.add('rolling');
+    setTimeout(() => {
+      const result = Math.floor(Math.random() * 20) + 1;
+      dice.textContent = result;
+      dice.classList.remove('rolling');
+    }, 1000); // 1 second matches the animation duration
   }
 </script>
 </head>
@@ -129,8 +155,10 @@
 <section id="dice-roller">
   <h2>Dice Roller</h2>
   <p>Click the button below to roll a 1D20!</p>
-  <button class="button" onclick="rollD20()">Roll D20</button>
-  <p id="dice-result" class="dice-result"></p>
+  <div class="dice-container">
+    <div id="dice" class="dice">?</div>
+    <button class="button" onclick="rollD20()">Roll D20</button>
+  </div>
 </section>
 
 <section id="lore">

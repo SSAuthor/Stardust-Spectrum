@@ -56,58 +56,59 @@
     font-size: 1.8rem;
     color: #ffd700;
   }
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  ul li {
-    margin: 10px 0;
-  }
-  a.button {
-    display: inline-block;
-    background: #3b5998;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  a.button:hover {
-    background: #557bbf;
-  }
-  footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #191970;
-    color: #fff;
-    font-size: 0.9rem;
-  }
   .dice-container {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
-  .dice-container img {
+  .d20 {
+    position: relative;
     width: 200px;
     height: 200px;
-    transition: transform 0.3s ease-in-out;
+    animation: none;
   }
-  .dice-container img:hover {
-    transform: rotate(360deg);
+  .d20 img {
+    width: 100%;
+    height: 100%;
+  }
+  .d20 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+  }
+  /* Rolling animation */
+  @keyframes roll {
+    0% { transform: rotateX(0deg) rotateY(0deg); }
+    25% { transform: rotateX(90deg) rotateY(45deg); }
+    50% { transform: rotateX(180deg) rotateY(90deg); }
+    75% { transform: rotateX(270deg) rotateY(135deg); }
+    100% { transform: rotateX(360deg) rotateY(180deg); }
+  }
+  .rolling {
+    animation: roll 1s ease-in-out;
   }
 </style>
 <script>
   function rollD20() {
-    const dice = document.getElementById('dice');
-    dice.src = ""; // Temporarily clear the image while rolling
+    const diceContainer = document.querySelector('.d20');
+    const diceNumber = document.getElementById('dice-number');
 
-    // Simulate rolling animation
+    // Add rolling animation
+    diceContainer.classList.add('rolling');
+    diceNumber.textContent = ""; // Clear the number while rolling
+
+    // After the animation ends, display the rolled number
     setTimeout(() => {
       const result = Math.floor(Math.random() * 20) + 1;
-      dice.src = `assets/dice/d20-${result}.png`; // Set the new dice face
-    }, 1000); // Delay to simulate rolling
+      diceNumber.textContent = result;
+      diceContainer.classList.remove('rolling');
+    }, 1000); // Matches the animation duration
   }
 </script>
 </head>
@@ -142,7 +143,10 @@
   <h2>Dice Roller</h2>
   <p>Click the button below to roll a 1D20!</p>
   <div class="dice-container">
-    <img id="dice" src="assets/dice/d20-1.png" alt="D20 Dice">
+    <div class="d20">
+      <img src="assets/dice/Blank_d20-no background.png" alt="Blank D20">
+      <span id="dice-number">1</span>
+    </div>
     <button class="button" onclick="rollD20()">Roll D20</button>
   </div>
 </section>

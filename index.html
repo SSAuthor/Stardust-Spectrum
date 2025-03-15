@@ -56,61 +56,7 @@
     font-size: 1.8rem;
     color: #ffd700;
   }
-  .dice-container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .d20 {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    animation: none;
-  }
-  .d20 img {
-    width: 100%;
-    height: 100%;
-  }
-  .d20 span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Orbitron', sans-serif;
-    font-size: 4rem;
-    color: black;
-    text-shadow: 1px 1px 2px white;
-  }
-  /* Rolling animation */
-  @keyframes roll {
-    0% { transform: rotateX(0deg) rotateY(0deg); }
-    25% { transform: rotateX(90deg) rotateY(45deg); }
-    50% { transform: rotateX(180deg) rotateY(90deg); }
-    75% { transform: rotateX(270deg) rotateY(135deg); }
-    100% { transform: rotateX(360deg) rotateY(180deg); }
-  }
-  .rolling {
-    animation: roll 1s ease-in-out;
-  }
 </style>
-<script>
-  function rollD20() {
-    const diceContainer = document.querySelector('.d20');
-    const diceNumber = document.getElementById('dice-number');
-
-    // Add rolling animation
-    diceContainer.classList.add('rolling');
-    diceNumber.textContent = ""; // Clear the number while rolling
-
-    // After the animation ends, display the rolled number
-    setTimeout(() => {
-      const result = Math.floor(Math.random() * 20) + 1;
-      diceNumber.textContent = result;
-      diceContainer.classList.remove('rolling');
-    }, 1000); // Matches the animation duration
-  }
-</script>
 </head>
 <body>
 <header>
@@ -135,29 +81,8 @@
   <ul>
     <li><a class="button" href="25%20SSRPG%20Player%20guide.pdf" target="_blank">SSRPG Player Guide</a></li>
     <li><a class="button" href="2025%20SSRPG%20Character%20sheet.pdf" target="_blank">SSRPG Character Sheet</a></li>
-    <li><a class="button" href="25%20SSRPG%20Rulebook.pdf" target="_blank">SSRPG Rulebook</a></li>
+    <li><a class="button" href="25%20SSRPG%20Rulebook_Final%20Ver%201.pdf" target="_blank">SSRPG Rulebook (Final Version)</a></li>
   </ul>
 </section>
-
-<section id="dice-roller">
-  <h2>Dice Roller</h2>
-  <p>Click the button below to roll a 1D20!</p>
-  <div class="dice-container">
-    <div class="d20">
-      <img src="assets/dice/Blank_d20_no_background.png" alt="Blank D20">
-      <span id="dice-number">1</span>
-    </div>
-    <button class="button" onclick="rollD20()">Roll D20</button>
-  </div>
-</section>
-
-<section id="lore">
-  <h2>Universe and Lore</h2>
-  <p>Learn about the fascinating world of <em>The Stardust Spectrum</em> and dive into its history, characters, and secrets.</p>
-</section>
-
-<footer>
-  <p>&copy; 2025 The Stardust Spectrum. All rights reserved.</p>
-</footer>
 </body>
 </html>
